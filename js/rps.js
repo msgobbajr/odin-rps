@@ -1,3 +1,6 @@
+let humanScore = 0;
+let computerScore = 0;
+
 function getComputerChoice (){
     let tempNum = Math.floor(Math.random()*3)+1;
     if (tempNum == 1) {
